@@ -24,3 +24,7 @@ div {
     justify-content: center;
     gap: 24px;
 }
+
+button {
+    padding: 12px 24px;
+}

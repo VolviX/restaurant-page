@@ -10,4 +10,4 @@ export function menu() {
     main.appendChild(desc);
     
     return main;
-}
+};

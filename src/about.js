@@ -10,4 +10,4 @@ export function about() {
     main.appendChild(desc);
 
     return main;
-}
+};

@@ -1,5 +1,7 @@
 import "./style.css";
 import { home } from './home.js';
+import { menu } from './menu.js';
+import { about } from './about.js';
 
 // first load
 const defaultDiv = document.getElementById('content');
@@ -22,12 +24,12 @@ nav.addEventListener('click', (event) => {
             case 'menu':
               console.log('Menu button was clicked!');
               defaultDiv.textContent = '';
-              //defaultDiv.appendChild(menu());
+              defaultDiv.appendChild(menu());
               break;
             case 'about':
               console.log('About button was clicked!');
               defaultDiv.textContent = '';
-              //defaultDiv.appendChild(about());
+              defaultDiv.appendChild(about());
               break;
         }
     }

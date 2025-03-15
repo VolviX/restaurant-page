@@ -1,4 +1,6 @@
 import "./style.css";
 import { home } from './home.js';
 
-home();
+const defaultDiv = document.getElementById('content');
+const firstLoad = home();
+defaultDiv.appendChild(firstLoad);

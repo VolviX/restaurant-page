@@ -18,7 +18,7 @@ nav {
     gap: 48px;
 }
 
-#content {
+div {
     display: flex;
     flex-direction: column;
     justify-content: center;
